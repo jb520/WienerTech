@@ -26,13 +26,13 @@ body::-webkit-scrollbar {
 
 .logo {
   font-family: 'Russo One', sans-serif;
-  font-size: 9px;
+  font-size: 22.5px;
   color: #FDFCF2;
   text-decoration: none;
 }
 
 .navbar a {
-  font-size: 7px;
+  font-size: 17.5px;
   font-weight: 700;
   color: #494950;
   text-decoration: none;
@@ -45,13 +45,15 @@ body::-webkit-scrollbar {
 }
 
 .slogan-container {
+  position: relative;
   width: 55%;
 }
 
 .slogan, .future {
+  position: static;
   padding: 20px 0px 0px 20px;
   font-family: 'Russo One', sans-serif; 
-  font-size: 50px;
+  font-size: 125px;
   font-weight: 500;
   color: #0C0C0A;
   -webkit-text-stroke: 1px #FDFCF2;
@@ -70,42 +72,47 @@ body::-webkit-scrollbar {
 }
 
 .slogan:hover .wiener {
-  font-size: 60px;
+  font-size: 150px;
   transition: font-size 0.8s ease-out;
 }
 
 .img-container {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 100px;
+  right: 60px;
   vertical-align: top;
 }
 
 p {
   max-width: 70ch;
-  font-size: 10px;
+  font-size: 25px;
+  z-index: -1;
 }
 
 .flvrtxt {
   position: absolute;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 20px;
   display: flex;
   align-items: flex-end;
+  z-index: 100;
 }
 
+/*
 .btn {
     font-family: 'Exo 2', sans-serif;
-    font-size: 7px;
+    font-size: 17.5px;
     font-weight: bold;
     background: #B98D27;
     border-radius: 10px;
-    border-width: 1px;
+    border-width: 2.5px;
     border-color: #c0983d;
-    text-align: center
+    text-align: center;
+    left: 20px;
 }
 
 .btn:hover {
     background: #0C0C0A;
     color: #c0983d;
 }
+*/
