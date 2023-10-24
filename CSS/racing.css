@@ -1,0 +1,107 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300&family=Russo+One&display=swap');*/
+
+body {
+  min-height: 100vh;
+  background: #0C0C0A;
+  color: #FDFCF2;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 10px;
+  background: #0C0C0A;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-family: 'Russo One', sans-serif;
+  font-size: 30px;
+  color: #FDFCF2;
+  text-decoration: none;
+}
+
+.logo:hover {
+  text-shadow: 5px 0px 1px #E53434;
+}
+
+.navbar a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #494950;
+  text-decoration: none;
+  padding-right: 40px;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  color: #FDFCF2;
+}
+
+.big-text {
+  font-family: 'Russo One', sans-serif;
+  padding: 0px 0px 0px 20px;
+  font-size: 90px;
+  border-bottom-style: solid;
+}
+
+#image-track > .image {
+  width: 40vmin;
+  height: 46vmin;
+  object-fit: cover;
+  object-position: 100%, 50%;
+}
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: static;
+  left: 20px;
+  transform: translate(0%, 0%);
+  user-select: none;
+  padding-bottom: 50px;
+}
+
+.list-container {
+  left: 10px;
+  max-width: 70ch;
+  float: left;
+}
+
+.list {
+  font-size: 18px;
+  list-style-type: none;
+  max-width: 70ch;
+  left: 0px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.point {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+li:hover > span {
+  color: #D8AC46;
+}
+
+.img-container {
+  float: right;
+  padding-right: 100px;
+}
+
+
