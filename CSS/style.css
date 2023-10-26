@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
   top: 0px;
   left: 0px;
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   background: transparent;
   font-weight: 500;
   display: flex;
@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
 
 .logo {
   font-family: 'Russo One', sans-serif;
-  font-size: 22.5px;
+  font-size: 30px;
   color: #FDFCF2;
   text-decoration: none;
 }
